@@ -110,6 +110,18 @@ nav {
     color: var(--primary-color) !important;
 }
 
+.btn-sub{
+    background: var(--green-dark);
+    color: white;
+    font-weight: 600;
+}
+
+.btn-sub:hover{
+    background: var(--green-dark);
+    color: white;
+    font-weight: 600;
+}
+
 /* ── HERO ── */
 .hero {
     position: relative;
@@ -348,7 +360,7 @@ nav {
 
 .focus-area {
     font-size: 24px;
-    padding: 60px 120px;
+    padding: 60px 60px;
     text-align: left;
 }
 
@@ -364,6 +376,7 @@ nav {
 .focus-area-list {
     font-size: 16px;
     margin-top: 4rem;
+    list-style: none;
 }
 
 .focus-area-title {
@@ -395,7 +408,7 @@ nav {
 
 .advocacy-focus-area {
     font-size: 24px;
-    padding: 60px 120px 0px 120px;
+    padding: 60px 60px 0px 60px;
     text-align: left;
 }
 
@@ -411,6 +424,7 @@ nav {
 .advocacy-focus-area-list {
     font-size: 16px;
     margin-top: 1rem;
+    list-style: none;
 }
 
 .advocacy-focus-area-title {
