@@ -844,6 +844,17 @@ nav {
     .ex-image {
         display: none !important;
     }
+
+    .teal-cat, .yellow-cat{
+        padding:60px 30px !important;
+    }
+    
+    .sponsor-name-pres{
+        font-size: 15px;
+    }
+    .sponsor-sub{
+        font-size: 8.5px;
+    }
 }
 
 @media (min-width: 1600px) {
