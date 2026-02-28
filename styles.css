@@ -653,9 +653,20 @@ nav {
     line-height: 24px;
 }
 
+.form-wrapper {
+    background: rgba(76, 104, 91, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 4rem 2rem;
+    border-radius: 25px;
+}
+
+.contacts{
+    margin-top: 5rem;
+}
+
 .custom-footer .form-control {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: transparent;
+    border: 1px solid white;
     color: white;
     border-radius: 8px;
     padding: 0.65rem 1rem;
@@ -665,12 +676,6 @@ nav {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.custom-footer .form-control:focus {
-    background: rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.3);
-    color: white;
-    box-shadow: none;
-}
 
 .submit-btn {
     background: white;
@@ -696,6 +701,13 @@ nav {
     gap: 0.8rem;
     margin-bottom: 0.7rem;
     flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.contact-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
 .contact-item i {
@@ -809,13 +821,18 @@ nav {
     .partnership-title,
     .campaign-title,
     .exhibition-title,
+    .content-title,
+    .empowerment,
     .advocacy-title {
-        font-size: 25px;
+        font-size: 25px !important;
     }
 
     .collective-text,
-    .thriving-text {
-        font-size: 13px;
+    .thriving-text,
+    .hematic-content,
+    .empowerment-text,
+    .text-content {
+        font-size: 15px;
     }
 
     .campaign-list li {
